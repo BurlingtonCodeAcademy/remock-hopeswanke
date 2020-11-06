@@ -1,0 +1,159 @@
+/* body */
+body {
+  background-color: rgb(208, 192, 159);
+  margin-right: 50px;
+}
+/* -------------------------------- Header -------------------------------- */
+/* header and format for when you hover */
+a {
+  text-decoration: none;
+  font-size: 60px;
+}
+#headerTitle {
+  margin: 0;
+  margin-bottom: 75px;
+  padding: 40px;
+  color: rgb(100, 141, 160);
+  text-align: center;
+}
+/* changes to read when hover over header */
+#headerTitle:hover {
+  color: rgb(29, 57, 79);
+}
+/*-------------------------------- BLOG ----------------------------------*/
+/* container for the main section of page */
+#mainPageContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+/* container for blog */
+#blogContainer {
+    width: 60vw;
+  }
+/* blog title, image, subtitle, and text formatting */
+#blogTitle{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#blogImage {
+  height: 60vh;
+  width: 60vw;
+}
+.blogSubtitle {
+  margin-bottom: 0;
+}
+.blogText {
+  margin-top: 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+/*------------------------------ SIDE BAR --------------------------------*/
+/* containing div for sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 25px;
+}
+/* sidebar titles, subtitles, and text*/
+.sidebarTitle {
+  margin-bottom: 0;
+  background-color: gray;
+  width: 100px;
+  text-align: center;
+}
+.sidebarSubtitle {
+  margin-bottom: 0;
+}
+.sidebarText{
+  margin-top: 20px;
+  font-size: 15px;
+  text-justify: inter-word;
+  background-color: honeydew;
+}
+/* sidebar titles labeled important */
+.sidebarTitleImportant {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: black
+}
+/* when hovering formatting */
+.sidebarTitleImportant:hover{
+  color: rgb(254, 167, 167)
+}
+/* images in sidebar */
+.sidebarImage{
+  width: 10vw;
+  height: 140px;
+  float: left;
+  margin-top: 20px;
+  border: 1px black solid;
+  margin-right: 10px;
+
+}
+
+/*---------------------------- footer styling ----------------------------*/
+#footerContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(254, 167, 167);
+  padding-bottom: 20px;
+}
+/* footer title */
+#footerTitle{
+  text-align: center;
+}
+/* email, input and messaging formatting */
+#emailContainer{
+  width: 50vw;
+  padding: 15px;
+  border-right: 3px solid black;
+}
+/* input for name and email */
+.emailInput{
+  width: 23vw;
+  height: 30px;
+}
+/* text box for users message */
+#emailMessage{
+  width: 47vw;
+  height: 200px;
+  font-size: 30px;
+}
+#emailMessageContainer{
+  padding-top: 10px
+}
+/* contact message and social media formatting */
+#contactContainer{
+  display: flex;
+  padding-left: 20px;
+}
+/* message for user formatting */
+#footerDescription{
+  width: 25vw;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+/* container for each social media description */
+.socialMediaContainer{
+  display: flex;
+  margin: 20px;
+}
+/* social media info formatting  */
+.socialMediaTitle{
+  margin: 0;
+}
+/* bullet image */
+.contactImage{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

@@ -1,0 +1,106 @@
+/* body */
+body {
+  background-color: rgb(152, 159, 139);
+}
+/* -------------------------------- Header -------------------------------- */
+/* header */
+a {
+  text-decoration: none;
+  font-size: 60px;
+}
+#headerTitle {
+  margin: 0;
+  margin-bottom: 175px;
+  padding: 40px;
+  color: rgb(154, 104, 152);
+  text-align: center;
+}
+/* changes to read when hover over header */
+#headerTitle:hover {
+  color: rgb(254, 118, 0);
+}
+/*-------------------------------- BLOG ----------------------------------*/
+/* container for blog content */
+#blogContainer{
+    width: 70vw;
+    margin: 0 250px;
+}
+/* blog title, image, subtitle, and text formatting */
+#blogTitle {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#blogImage {
+  height: 70vh;
+  width: 70vw;
+}
+.blogSubtitle {
+  margin-bottom: 0;
+}
+.blogText {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+/*---------------------------- footer styling ----------------------------*/
+#footerContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(254, 167, 167);
+  padding-bottom: 20px;
+}
+/* footer title */
+#footerTitle{
+  text-align: center;
+}
+/* email, input and messaging formatting */
+#emailContainer{
+  width: 50vw;
+  padding: 15px;
+  border-right: 3px solid black;
+}
+/* input for name and email */
+.emailInput{
+  width: 23vw;
+  height: 30px;
+}
+/* text box for users message */
+#emailMessage{
+  width: 47vw;
+  height: 200px;
+  font-size: 30px;
+}
+#emailMessageContainer{
+  padding-top: 10px
+}
+/* contact message and social media formatting */
+#contactContainer{
+  display: flex;
+  padding-left: 20px;
+}
+/* message for user formatting */
+#footerDescription{
+  width: 25vw;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+/* container for each social media description */
+.socialMediaContainer{
+  display: flex;
+  margin: 20px;
+}
+/* social media info formatting  */
+.socialMediaTitle{
+  margin: 0;
+}
+/* bullet image */
+.contactImage{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
